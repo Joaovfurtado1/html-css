@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    background-color: red;
+    text-align: justify;
+    text-indent: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: purple;
+    color: white;
+
+    border: 10px solid darkgoldenrod;
+
+    padding: 10px 10px 10px 15px;
+
+    margin: 10px auto 20px auto;
+
+}
+
+a {
+    background-color: white;
+}
+
+p {
+    background-color: aqua;
+}
