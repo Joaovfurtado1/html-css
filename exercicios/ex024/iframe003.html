@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe 3</title>
+    <style>
+        iframe#tela {
+            width: 95vw;
+            height: 300px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Carregando diferentes páginas por Iframe</h1>
+
+    <ul>
+        <li><a href="iframe002.html" target="frame">1</a></li>
+        <li><a href="pagina001.html" target="frame">2</a></li>
+        <li><a href="iframe002.html" target="frame">3</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem recusandae assumenda quod odio laboriosam necessitatibus deserunt reiciendis velit atque quibusdam fugiat, amet, doloribus officia eaque saepe officiis enim iste ipsum!</p>
+    <iframe srcdoc="<h1>Escolha uma opção acima</h1>" frameborder="0" id="tela" name="frame">Navegador imcompativel</iframe>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum placeat in praesentium eum commodi atque omnis quia et, delectus enim perspiciatis officiis obcaecati reiciendis aspernatur molestias aut tempora quod eaque.</p>
+</body>
+</html>
